@@ -1,0 +1,12 @@
+PeerOrgs:
+        - Name: Org1
+          Domain: org1.example.com
+          EnableNodeOUS: true
+          Template:
+                  Count: 4
+                  SANS:
+                    - localhost
+          Users:
+                  Count: 1
+
+
